@@ -1,0 +1,6 @@
+datos que puede tener .json
+numeros 
+cadenas de caracteres
+boolean
+arreglos
+objetos

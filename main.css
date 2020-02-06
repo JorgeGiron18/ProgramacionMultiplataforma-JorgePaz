@@ -1,0 +1,86 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+}
+ 
+header {
+    width: 100%; 
+    overflow: hidden;
+    background: rgb(255, 124, 1);
+    margin-bottom: 20px;  
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow: hidden;
+}
+
+
+header .encabezado{
+    columns: #da7415;
+    font-size: 40px;
+    line-height:150px;
+    float: left;   
+}
+
+header nav{
+    float: right;
+    line-height: 150px;
+}
+
+/*Prop btn navegacion*/
+header nav a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size:20px;
+    font-weight: bold;
+    -o-webkit-transition:all 500ms eas;  
+    -o-transition: all 500ms eas;
+    transition:all 500ms eas;
+
+}
+/*Sombreo de los btn navegacion*/
+header nav a:hover{
+    background:  rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+#contenedor {
+    display: flex;
+    padding-top: 10px ;
+    padding-left: 10px;
+}
+
+#contenedor .casilla  {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+
+}
+
+#contenedor .casilla label{
+    font-weight: 600px;
+    font-size: 18px;
+
+}
+
+#contenedor .casilla input{
+    padding: 10px;
+    font-size: 14px;
+}
+
+#contenedor input[type="submit"] {
+    background-color: #da7415;
+    font-size: 16px;
+}
+
+
+
+
+
